@@ -1,0 +1,6 @@
+Test Name,Type,Target,Expected,Status,Actual Result,Timestamp
+Verify Customer Support heading exists,content,Customer Support,text is present,PASS,Found: Customer Support,2026-09-22 01:24:53
+Verify Business Card price displayed,content,Rs. 1.8,price displayed,PASS,Found: Rs. 1.8,2026-09-22 01:24:53
+Verify WhatsApp contact link href,link,+92-335-4933303,link href matches,PASS,+92-335-4933303 -> https://wa.me/923354933303?text=Hello Team MAB Printers would like to connect with you,2026-09-22 01:24:53
+Navigate to Business Cards page,navigation,Business Cards,businesscards.php page loads,PASS,Navigated successfully to https://mabprinters.pk/businesscards.php,2026-09-22 01:24:53
+Navigate to Order page via Order now link,navigation,Order now,order.php page loads,PASS,Navigated successfully to https://mabprinters.pk/order.php,2026-09-22 01:24:53

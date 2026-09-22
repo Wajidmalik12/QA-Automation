@@ -1,0 +1,16 @@
+LLM GENERATED TEST PLAN
+Test Name,Type,Target,Expected
+Verify primary phone number is displayed,content,+92-343-4933303,Phone number text is present on the page
+Verify BUSINESS CARD heading exists,content,BUSINESS CARD,Heading text is present on the page
+Verify Order now link points to order page,link,Order now,Link with correct href exists
+Navigate via Business Cards link and verify destination,navigation,Business Cards,Navigates to businesscards.php page
+Verify WhatsApp contact link for +92-335-4933303,link,+92-335-4933303,WhatsApp link with correct href exists
+
+
+PLAYWRIGHT EXECUTION RESULTS
+Test Name,Type,Status,Actual Result,Timestamp
+Verify primary phone number is displayed,content,PASS,Found: +92-343-4933303,2026-09-22 02:42:27
+Verify BUSINESS CARD heading exists,content,PASS,Found: BUSINESS CARD,2026-09-22 02:42:27
+Verify Order now link points to order page,link,PASS,Order now -> order.php,2026-09-22 02:42:27
+Navigate via Business Cards link and verify destination,navigation,PASS,Navigated successfully to https://mabprinters.pk/businesscards.php,2026-09-22 02:42:27
+Verify WhatsApp contact link for +92-335-4933303,link,PASS,+92-335-4933303 -> https://wa.me/923354933303?text=Hello Team MAB Printers would like to connect with you,2026-09-22 02:42:27

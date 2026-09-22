@@ -1,0 +1,16 @@
+LLM GENERATED TEST PLAN
+Test Name,Type,Target,Expected
+Verify Customer Support heading is present,content,Customer Support,Text is present on the page
+Verify Business Card price is displayed,content,Rs. 1.8,Price text is present on the page
+Validate WhatsApp contact link href,link,+92-335-4933303,Link href matches expected WhatsApp URL
+Navigate to Business Cards page,navigation,Business Cards,Navigated to businesscards.php page
+Navigate to Order page via Order now link,navigation,Order now,Navigated to order.php page
+
+
+PLAYWRIGHT EXECUTION RESULTS
+Test Name,Type,Status,Actual Result,Timestamp
+Verify Customer Support heading is present,content,PASS,Found: Customer Support,2026-09-22 02:58:04
+Verify Business Card price is displayed,content,PASS,Found: Rs. 1.8,2026-09-22 02:58:04
+Validate WhatsApp contact link href,link,PASS,+92-335-4933303 -> https://wa.me/923354933303?text=Hello Team MAB Printers would like to connect with you,2026-09-22 02:58:04
+Navigate to Business Cards page,navigation,PASS,Navigated successfully to https://mabprinters.pk/businesscards.php,2026-09-22 02:58:04
+Navigate to Order page via Order now link,navigation,PASS,Navigated successfully to https://mabprinters.pk/order.php,2026-09-22 02:58:04
